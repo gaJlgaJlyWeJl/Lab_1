@@ -1,0 +1,58 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 50px;
+  }
+  .my_photo {
+    width: 250px;
+  }
+  .resume p {
+    text-align: justify;
+  }
+  .resume {
+    flex-direction: column;
+  }
+  .discription-1,
+  .discription-2 {
+    width: 100%;
+    text-align: justify;
+  }
+  .clock {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .clock-date-container {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 30px;
+  }
+  .resume {
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+    min-height: 500px;
+    align-items: center;
+  }
+  .discription-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .discription-container b {
+    align-items: center;
+    width: 300px;
+  }
+  .discription-1,
+  .discription-2 {
+    width: 300px;
+    align-items: center;
+  }
+  .skills-container {
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+  }
+}

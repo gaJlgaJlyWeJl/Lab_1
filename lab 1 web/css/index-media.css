@@ -1,0 +1,22 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 50px;
+  }
+  .my_photo {
+    width: 250px;
+  }
+  .resume p {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 768px) {
+  .clock-date-container {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 30px;
+  }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Творчий стиль</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/creative.css" />
+    <link rel="stylesheet" href="./css/creative-media.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <ul class="nav-list">
+          <a class="nav-link" href="./index.html"
+            ><li class="nav-item">Діловий стиль</li></a
+          >
+
+          <a class="nav-link" href=""
+            ><li class="nav-item active">Творчий стиль</li></a
+          >
+        </ul>
+      </div>
+
+      <div class="resume">
+        <div class="photo">
+          <img
+            class="my_photo"
+            src="./img/photo.jpg"
+            alt="my_photo"
+            data-aos="fade-right"
+          />
+        </div>
+
+        <div class="discription-container">
+          <b data-aos="flip-up">Олійніченко Ярослав</b>
+          <div class="discription-1" data-aos="flip-up">
+            <p class="discription-text">
+              Я, Олійніченко Ярослав Павлович, народився 01.05.2004 у с.Вікторівка
+              <br />
+              Середню освіту отримав у Вікторівській загальньоосвітній школі. Із вересня 2021р по
+              сьогодні навчаюсь в ЧДТУ за спецільністю "Інженер програмного
+              забезпечення".
+              <br />
+            </p>
+          </div>
+          <div class="discription-2" data-aos="flip-up">
+            <div class="discription-text">
+              <h2>Освіта</h2>
+              <ul>
+                <li>Cherkasy State Technological University</li>
+                <li>Дата: з 01.09.2021 - до 01.09.2025</li>
+                <li>Ступінь: бакалавр, Інженер програмного забезпечення</li>
+              </ul>
+            </div>
+          </div>
+          <div class="skills-container" data-aos="flip-up">
+            <div class="soft-skills">
+              <h2>Soft skills</h2>
+              <ul>
+                <li>Комунікативний</li>
+                <li>Вмію працювати в команді</li>
+                <li>Креативний</li>
+              </ul>
+            </div>
+            <div class="hard-skills">
+              <h2>Hard skills</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>ADOBE Photoshop</li>
+                <li>Word</li>
+                <li>Exel</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clock-date-container">
+        <div class="clock" data-aos="zoom-in">
+          <span id="hours"></span> : <span id="minutes"></span> :
+          <span id="seconds"></span>
+        </div>
+
+        <div class="calendar" data-aos="zoom-in">
+          <h2 id="currentMonthYear"></h2>
+          <div id="calendarGrid" class="calendar-grid"></div>
+        </div>
+
+        <div class="chart-container" data-aos="zoom-in">
+          <h2>Діаграма навичок</h2>
+          <div class="chart">
+            <div class="bar" style="height: 90%"></div>
+            <div class="bar" style="height: 85%"></div>
+            <div class="bar" style="height: 60%"></div>
+            <div class="bar" style="height: 70%"></div>
+            <div class="bar" style="height: 95%"></div>
+            <div class="bar" style="height: 85%"></div>
+          </div>
+          <div class="labels">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JS</div>
+            <div>ADOBE Photoshop</div>
+            <div>Word</div>
+            <div>Exel</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2023 Резюме Усі права захищені.</p>
+    </footer>
+
+    <script src="./src/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
